@@ -106,12 +106,6 @@
   }
 
   $("reg-form").addEventListener("submit", onRegister);
-  $("signout").addEventListener("click", function () {
-    if (!window.confirm("Register as someone else on this browser? Your own progress stays saved under your email.")) { return; }
-    api.session.clear();
-    $("name").value = ""; $("email").value = "";
-    showError(""); enterRegister();
-  });
   // Coming back from the quiz or workshop tab: refresh the cards.
   document.addEventListener("visibilitychange", function () { if (!document.hidden && api.session.get()) { refresh(); } });
   window.addEventListener("pageshow", function (e) { if (e.persisted) { refresh(); } });

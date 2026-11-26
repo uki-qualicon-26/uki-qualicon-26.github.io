@@ -15,4 +15,3 @@
 .part.locked .partnum { border-color: var(--muted); color: var(--muted); box-shadow: none; }
 a.btn { display: inline-block; text-decoration: none; text-align: center; }
 .center-text { text-align: center; }
-.linkbtn { background: none; border: 0; padding: 0; color: var(--neon-cyan); font: inherit; text-decoration: underline; cursor: pointer; }
