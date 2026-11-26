@@ -16,4 +16,3 @@
 a.btn { display: inline-block; text-decoration: none; text-align: center; }
 .center-text { text-align: center; }
 .linkbtn { background: none; border: 0; padding: 0; color: var(--neon-cyan); font: inherit; text-decoration: underline; cursor: pointer; }
-.foot { margin-top: 36px; text-align: center; font-size: .8rem; color: var(--muted); }
