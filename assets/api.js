@@ -7,6 +7,7 @@
     invalid_name: "Please enter your full name (2 to 60 characters).",
     invalid_email: "Please use your IBM email address (ending in ibm.com).",
     invalid_host_code: "That host code is not valid.",
+    server_not_configured: "Registration is not set up yet. Please tell your host.",
     reset_locked: "Clearing is locked (the quiz is live). Unlock it first.",
     already_taken: "This email has already completed the quiz. Each person gets one attempt.",
     quiz_closed: "The quiz is closed right now. Please check with your host.",

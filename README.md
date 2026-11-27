@@ -2,7 +2,7 @@
 
 **https://uki-qualicon-26.github.io/** is the single link to share.
 
-1. Participants register **once** here with their name and IBM email.
+1. Participants register **once** here with their name and IBM email. The email is hashed, never stored or shown (see the privacy note on the page and the quiz repo's HOST_GUIDE.md).
 2. They take the **Bob quiz** (`/quiz/`).
 3. The **hands-on workshop** (`/workshop/`) unlocks when the quiz is submitted. Progress is saved against the same registration.
 
