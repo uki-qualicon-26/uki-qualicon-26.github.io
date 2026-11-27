@@ -218,3 +218,7 @@ input:focus-visible, button:focus-visible, .opt:focus-within { outline: 3px soli
 /* Participant header: centre the title and tagline between the two logos */
 .brand { justify-content: center; }
 .brand > div { text-align: center; }
+
+/* Registration screen: wider card so the privacy notice fits on one line on large screens */
+.wrap:has(#view-register:not(.hidden)) { max-width: 1240px; }
+@supports selector(:has(*)) { @media (min-width: 1280px) { .privacy { white-space: nowrap; font-size: .8rem; } } }
